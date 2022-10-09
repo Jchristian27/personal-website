@@ -90,6 +90,10 @@ ul {
 .nav-links a {
   font-size: 16px;
 }
+.center {
+  border: 1px solid #888888;
+  text-align: center;
+}
 .footer {
   display: flex;
   justify-content: flex-start;
