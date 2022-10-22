@@ -63,6 +63,9 @@ p {
 .icon:hover {
   opacity: 0.7;
 }
+#demail {
+  color: #444;
+}
 .blog {
   align-items: center;
   display: flex;
