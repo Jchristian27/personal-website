@@ -13,9 +13,9 @@
       <div class="social-icons">
         <a href="#"><img src="images/ctwitter.svg" class="icon"></a>
         <a href="#"><img src="images/cgithub.svg" class="icon"></a>
-        <a href="#"><img src="images/cemail.svg" class="icon" id="iemail"></a>
+        <a href="#"><img src="images/cemail.svg" class="icon" id="appearing-email"></a>
       </div>
-      <div id="demail"></div>
+      <div id="email-div"></div>
     </div>
     <div class="about-me">
       <h2 class="heading">About me</h2>
@@ -50,10 +50,10 @@
     </div>
     <script type="text/javascript">
       let e_is_shown = false; 
-      document.getElementById('iemail').addEventListener("click", function(){ 
-        let demail = document.getElementById('demail'); 
-        demail.innerHTML = 'jchristian' + ' _at_ ' + 'example' + '.com'; 
-        demail.style.opacity = e_is_shown ? 0 : 1; 
+      document.getElementById('appearing-email').addEventListener("click", function(){ 
+        let emailDiv = document.getElementById('email-div'); 
+        emailDiv.innerHTML = 'jchristian' + ' _at_ ' + 'example' + '.com'; 
+        emailDiv.style.opacity = e_is_shown ? 0 : 1; 
         e_is_shown = !e_is_shown; })
     </script>
   </body>
