@@ -101,7 +101,7 @@ p {
   width: 100%;
 }
 .post-header {
-  align-items: center;
+  align-items: flex-end;
   border-bottom: 1px solid #ccc;
   display: flex;
   justify-content: space-between;
@@ -111,6 +111,9 @@ p {
 .recent-posts > h2 {
   padding: 0;
   margin: 0;
+}
+.see-all {
+  margin-bottom: 1.5px;
 }
 .post-list {
   display: flex;
