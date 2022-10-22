@@ -3,7 +3,7 @@ body {
   /* align-items: center; */
   display: flex;
   flex-direction: column;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: sans-serif;
   justify-content: center;
   line-height: 1.5;
   margin: 7.5vh 22.5vw;
@@ -40,6 +40,7 @@ p {
 }
 .home-heading {
   font-size: 34px;
+  font-weight: normal;
   margin: 0;
 }
 .home-subheading {
