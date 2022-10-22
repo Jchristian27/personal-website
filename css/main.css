@@ -6,7 +6,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   justify-content: center;
   line-height: 1.5;
-  margin: 12.5vh 22.5vw;
+  margin: 7.5vh 22.5vw;
 }
 a {
   color: rgb(51, 122, 183);
@@ -26,9 +26,27 @@ p {
 
 /* HOMEPAGE STYLES */
 .home-title {
-  display: inline-block;
-  margin: 1.5vh 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3vh;
   text-align: center;
+}
+.home-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin-bottom: 2em;
+}
+.home-heading {
+  font-size: 34px;
+  margin: 0;
+}
+.home-subheading {
+  color: #777;
+  font-size: 18px;
+  font-style: italic;
+  margin: 0;
 }
 .blog {
   align-items: center;
