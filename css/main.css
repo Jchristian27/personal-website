@@ -29,7 +29,7 @@ p {
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin-bottom: 3vh;
+  margin: 3vh;
   text-align: center;
 }
 .home-photo {
@@ -48,6 +48,20 @@ p {
   font-size: 18px;
   font-style: italic;
   margin: 0;
+}
+.social-icons {
+  align-items: center;
+  display: flex;
+  gap: 15px;
+  margin: 15px;
+  justify-content: space-around;
+}
+.icon {
+  height: 35px;
+  width: 35px;
+}
+.icon:hover {
+  opacity: 0.7;
 }
 .blog {
   align-items: center;
