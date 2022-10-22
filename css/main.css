@@ -108,29 +108,29 @@ p {
   padding-bottom: 0;
   width: 100%;
 }
+.recent-posts > h2 {
+  padding: 0;
+  margin: 0;
+}
 .post-list {
   display: flex;
   justify-content: flex-start;
   padding: 5px;
   width: 100%;
 }
-.blog ul {
+.post-list ul {
   margin: 0;
   padding: 0;
 }
-.blog li {
+.post-list li {
   list-style: none;
   margin: 25px 0;
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
-.blog li .post-meta {
+.post-list li .post-meta {
   color: #555;
-}
-.recent-posts > h2 {
-  padding: 0;
-  margin: 0;
 }
 
 
