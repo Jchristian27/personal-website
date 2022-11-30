@@ -5,7 +5,7 @@ body {
   font-family: sans-serif;
   justify-content: center;
   line-height: 1.5;
-  margin: 7.5vh 20vw;
+  margin: 7.5vh 25vw;
 }
 section {
   margin: 15px 0;
@@ -181,6 +181,6 @@ p {
     font-family: sans-serif;
     justify-content: center;
     line-height: 1.5;
-    margin: 2.5vh 5vw;
+    margin: 2.5vh 2.5vw;
   }
 }
